@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Content
+        </title>
+        <style>
+            body{
+                padding: 25px;
+            }
+            .title{
+                color:antiquewhite;
+            }
+            .ping{
+                position: relative;
+                opacity: 0.70;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .ping{
+                background-image: url("flower.jpg");
+                min-height: 400px;
+            }
+            .section{
+                text-align: center;
+                padding: 50px 88px;
+            }
+            .section-light{
+                background-color: #f4f4ff;
+                color: #666;
+            }
+            .section-dark{
+                background-color: #282e34;
+                color: #ddd;
+            }
+            .ptext{
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+                font-size: 27px;
+                color: #000;
+                letter-spacing: 18px;
+                text-transform: uppercase;
+            }
+            .ptext .border{
+                background-color: #111;
+                color: #fff;
+                padding: 20px;
+            }
+            .ptext .border.trans{
+                background-color: transparent;
+            }
+            @media(max-width:568px){
+                .ping1, .ping2, .ping3{
+                    background-attachment: scroll;
+                }
+            }
+        </style>
+        <span class="border trens" style="font-size: 48px;">
+            <center>
+                Welcome all to this Website
+            </center>
+        </span><br>
+    </head>
+    <body>
+        <section class="section section-dark">
+            <h1>
+                Section One
+            </h1>
+            <p>
+                Web development is the work involvrd in developing website.
+            </p>
+        </section>
+        <div class="ping">
+            <div class="ptext">
+                <span class="border trans">
+                    In a gentle way you can shake the World.
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
